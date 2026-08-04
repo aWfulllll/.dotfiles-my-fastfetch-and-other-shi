@@ -1,0 +1,99 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
+//
+//  by Bina
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+     "logo": {
+    	"source": "/home/awful/.config/fastfetch/f3.jpg",
+    	"type": "kitty",
+        "height": 18,
+    	 "padding": {
+            "top": 2,
+            "right": 6
+        }
+    	
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+	"break",
+        "break",
+        "break",
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+	    "format": "{name} {arch} (I use Arch BTW)",
+            "keyColor": "34",   // = color4
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "34",
+        },
+        {
+            "type": "cpu",
+            "temp": true,
+	    "format": "{1} ({5}) @ {7} GHz {8}",
+            "key": " ",
+            "keyColor": "34",  
+        },
+	{
+		"type": "gpu",
+		"temp": true, 
+		"hideType": "Integrated", 
+		"format": "{2} - {4}", 
+		"key": " ",
+		"keyColor": "34",  
+	},
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "terminalfont",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "datetime",
+            "format": "{1}-{3}-{11}",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "34", 
+        },
+        
+       
+    ]
+}
+
