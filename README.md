@@ -1,2 +1,2 @@
-# .dotfiles-my-fastfetch-and-other-shi
+dotfiles uhh use them if you want, you brake something idc your issue
 currently fastfetch
